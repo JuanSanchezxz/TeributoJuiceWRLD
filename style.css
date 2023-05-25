@@ -1,0 +1,316 @@
+*{
+margin: 0;
+padding: 0;
+font-size: 16px;
+box-sizing: border-box;
+font-family: 'Anton', sans-serif;
+}
+
+header.container{
+    background-color: #908193;
+    width: 100%;
+    height:  10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;  
+}
+button.header-button{
+    margin: 1% 5%;
+    background-color: #908193;
+    border: none;
+    color: white;
+    width: 100px;
+    height: 30px;
+}
+h1{
+    font-family: 'Sedgwick Ave Display', cursive;
+    color: white;
+    font-size: 3rem;
+}
+#section-one{
+    background-color: #CBC4CC;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+iframe.section-one_video{
+    width: 560px; 
+    height: 360px;
+    border: 0;
+}
+#section-two{
+    background-image: url(images/Background.jpg);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5%;
+    text-align: center;
+}
+#section-two h2{
+    font-family: 'Sedgwick Ave Display', cursive;
+    color: black;
+    font-size: 2rem;
+    padding: 5%;
+}
+#section-two p{
+    color: black;
+    padding: 5% 10%;
+}
+#section-two img{
+    width: 35%;
+    padding: 5%;
+}
+#section-three{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #77687A;
+    padding: 5%;
+    text-align: center;
+}
+div.section-three_info{
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    margin: 1%;
+    text-align: center;
+}
+div.section-three_chart{
+    width: 30%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background-color: #908193;
+    margin: 3%;
+    text-align: center;
+    border: 2px solid #685D6B; 
+}
+
+#section-three h3{
+    font-family: 'Sedgwick Ave Display', cursive;
+    color: white;
+    font-size: 2rem;
+    padding: 1%;
+}
+
+#section-three img{
+    width: 50%;
+    padding: 5%;
+}
+
+iframe.section-three_video{
+    width: 70%; 
+    height: 100%;
+    border: 0;
+    padding: 5%;
+}
+#section-three p{
+    color: white;
+    padding: 5% 10%;
+}
+#section-four{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #CBC4CC;
+    padding: 5%;
+    text-align: center;
+}
+#section-four h4{
+    font-family: 'Sedgwick Ave Display', cursive;
+    color: black;
+    font-size: 2rem;
+    padding: 5%;
+}
+#section-four table{
+    width: 100%;
+    flex-direction: column-reverse;
+}
+#section-four th{
+    width: 50%;
+    height:10%;
+    border:2px solid white;
+    padding:1% 3%;
+}
+#section-four td{
+    width: 20%;
+    height:10%;
+    border:2px solid white;
+    padding:1% 3%;
+}
+th.section-four-title-table{
+    font-size: 1.2rem;
+    color: white;
+    background-color: #908193;
+}
+#section-five{
+    width: 100%;
+    background-color: #CBC4CC;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+    text-align: center;
+    align-items: center;
+}
+#section-five h5{
+    font-family: 'Sedgwick Ave Display', cursive;
+    color: white;
+    font-size: 5rem;
+    padding: 0 5% 5% 5%;
+}
+div.section-five-form{
+    width: 40%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #908193;
+    text-align: center;  
+}
+#section-five p{
+    color: white;
+    padding: 2% 5%;  
+}
+#section-five input{
+    border: 2px solid #685D6B;
+    border-radius:7px;
+}
+input.section-five-input-inf1{
+    width: 80%;
+    height: 10%;
+}
+input.section-five-input-inf2{
+    width: 80%;
+    height: 50%;
+}
+div.footer-conteiner{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #908193; 
+}
+img.img-footer{
+    margin:0 10%;
+    width: 50px;
+    height: 50px;
+}
+@media only screen and (max-width: 767px) {
+    *{
+        font-size: 10px;
+    }
+    h1{
+        margin: 1% 3%;
+        font-size: 2rem;  
+    }
+    button.header-button{
+        margin: 1% 3%;
+    }
+    iframe.section-one_video{
+        width: 70%;
+    }
+    #section-two{
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+    }
+    div.section-three_info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    div.section-three_chart{
+        width: 90%;
+    }
+    iframe.section-three_video{
+        width: 70%; 
+        height: 250px;
+    }
+    h5{
+        font-size: 3rem;
+    }
+    div.section-five-form{
+        width: 40%;
+        height: 120px;
+    }
+    div.footer-conteiner{
+        height: 40px;
+    }
+    img.img-footer{
+        width: 20px;
+        height: 20px;
+    }
+  }
+  @media only screen and (max-width: 1023px) {
+    h1{
+        margin: 1% 3%;
+        font-size: 2rem;  
+    }
+    button.header-button{
+        margin: 1% 3%;
+    }
+    iframe.section-one_video{
+        width: 70%;
+    }
+    #section-two{
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+    }
+    #section-two p{
+        padding: 0% 8%;
+    }
+    div.section-three_info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    div.section-three_chart{
+        width: 90%;
+    }
+    iframe.section-three_video{
+        width: 70%; 
+        height: 300px;
+    }
+    h5{
+        font-size: 3rem;
+    }
+    div.section-five-form{
+        width: 40%;
+        height: 180px;
+    }
+    div.footer-conteiner{
+        height: 50px;
+    }
+    img.img-footer{
+        width: 30px;
+        height: 30px;
+    }
+  }
+  @media only screen and (max-width: 1079px) {
+    h1{
+        font-size: 2.5rem;
+    }
+    div.section-three_info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    div.section-three_chart{
+        width: 90%;
+    }
+    iframe.section-three_video{
+        width: 70%; 
+        height: 300px;
+    }
+
+}
